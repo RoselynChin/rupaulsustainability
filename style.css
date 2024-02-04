@@ -1,0 +1,22 @@
+li {
+    display: inline;
+}
+
+.navbar-rs {
+    float: right;
+    display: flex;
+    margin: 10px;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 2px solid #ff3b8d;
+}
+
+* {
+    background: rgb(130,255,202);
+background: linear-gradient(180deg, rgba(130,255,202,1) 22%, rgba(255,103,167,1) 60%, rgba(255,215,0,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
