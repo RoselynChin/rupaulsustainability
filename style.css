@@ -6,9 +6,15 @@ li {
     float: right;
     display: flex;
     margin: 10px;
+    background-color: white;
+}
+
+.rectangle {
+    background-color: white;
 }
 
 .navbar {
+    width: 100%;
     background-color: white;
     border-bottom: 2px solid #ff3b8d;
 }
@@ -19,4 +25,28 @@ background: linear-gradient(180deg, rgba(130,255,202,1) 22%, rgba(255,103,167,1)
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    font-family: public-sans;
+}
+
+@font-face {
+    font-family: mervale;
+    src: url(assets/mervale-script.regular.otf);
+}
+
+@font-face {
+    font-family: public-sans;
+    src: url(assets/public-sans.regular.otf);
+}
+
+h1 {
+    font-family: mervale;
+}
+
+h3 {
+    font-family: 'Mina', sans-serif;
+}
+
+@font-face{
+    font-family: spinnaker;
+    src: url(assets/spinnaker.regular.ttf);
 }
