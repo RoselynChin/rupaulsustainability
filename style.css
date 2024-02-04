@@ -1,25 +1,28 @@
 li {
     display: inline;
+    padding: 5px;
 }
 
 .navbar-rs {
     float: right;
     display: flex;
-    margin: 10px;
+    margin: 25px;
     background-color: white;
+    
 }
 
 .rectangle {
     background-color: white;
+    padding: 5px;
+    border-bottom: 4px solid #FF3B8D;
 }
 
 .navbar {
     width: 100%;
     background-color: white;
-    border-bottom: 2px solid #ff3b8d;
 }
 
-* {
+body {
     background: rgb(130,255,202);
 background: linear-gradient(180deg, rgba(130,255,202,1) 22%, rgba(255,103,167,1) 60%, rgba(255,215,0,1) 100%);
     background-repeat: no-repeat;
@@ -42,11 +45,24 @@ h1 {
     font-family: mervale;
 }
 
-h3 {
+h2 {
     font-family: 'Mina', sans-serif;
+    text-align: center;
+    font-size: 200%;
+    margin: 50px;
 }
 
 @font-face{
     font-family: spinnaker;
     src: url(assets/spinnaker.regular.ttf);
+}
+
+.card-deck {
+    margin: 50px;
+    font-family: spinnaker;
+}
+
+.logo {
+  margin-top: 10px;
+  width: 60px;
 }
