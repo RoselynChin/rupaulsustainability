@@ -16,8 +16,10 @@ li {
 * {
     background-color: rgb(130,255,202);
     color: black;
-    margin: 40px;
+    margin: 10px;
     font-family: 'Spinnaker', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -33,3 +35,19 @@ img {
     margin-right: 10px;
 }
 
+.button-container {
+    text-align: right;
+    padding-right: 100px;
+}
+
+.styled-button {
+    background-color: rgba(255,215,0,1);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: auto; /* Auto margin on the right pushes the button to the left */
+    margin-left: auto; 
+   
+}
