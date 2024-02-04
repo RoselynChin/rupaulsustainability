@@ -1,28 +1,33 @@
 li {
     display: inline;
+    padding: 5px;
 }
 
 .navbar-rs {
     float: right;
     display: flex;
-    margin: 10px;
+    margin: 25px;
+    font-size: 30px;
     background-color: white;
+    
 }
 
 .rectangle {
     background-color: white;
+    padding: 5px;
+    border-bottom: 4px solid #FF3B8D;
 }
 
 .navbar {
     width: 100%;
     background-color: white;
-    border-bottom: 2px solid #ff3b8d;
 }
 
-* {
+body {
     background: rgb(130,255,202);
 background: linear-gradient(180deg, rgba(130,255,202,1) 22%, rgba(255,103,167,1) 60%, rgba(255,215,0,1) 100%);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
+
