@@ -6,9 +6,15 @@ li {
     float: right;
     display: flex;
     margin: 10px;
+    background-color: white;
+}
+
+.rectangle {
+    background-color: white;
 }
 
 .navbar {
+    width: 100%;
     background-color: white;
     border-bottom: 2px solid #ff3b8d;
 }
