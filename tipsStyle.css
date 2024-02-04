@@ -1,0 +1,35 @@
+li {
+    display: inline;
+}
+
+.navbar-rs {
+    float: right;
+    display: flex;
+    margin: 10px;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 2px solid #ff3b8d;
+}
+
+* {
+    background-color: rgb(130,255,202);
+    color: black;
+    margin: 40px;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+
+.section {
+    display: flex;
+   
+}
+h2 {
+    text-align: center;
+}
+
+img {
+    margin-right: 10px;
+}
+
