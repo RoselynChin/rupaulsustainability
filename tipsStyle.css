@@ -30,8 +30,22 @@ body {
     display: flex;
    
 }
+
+
+
+h3 {
+  font-size: 250%;
+  padding-bottom: 20px;
+}
+
 h2 {
-    text-align: center;
+    
+  text-align: center;
+    
+}
+
+p {
+  font-size: 150%;
 }
 
 img {
@@ -44,7 +58,7 @@ img {
 
 .button-container {
     text-align: right;
-    padding-right: 100px;
+    padding-right: 400px;
 }
 
 .styled-button {
@@ -54,9 +68,14 @@ img {
     padding-right: 30px;
     border-radius: 10px;
     font-size: 20px;
-    margin-right: auto; /* Auto margin on the right pushes the button to the left */
-    margin-left: auto; 
+    margin-right: 0; /* Auto margin on the right pushes the button to the left */
+
    
+}
+
+.imgs{
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -80,7 +99,7 @@ h1 {
 h2 {
     font-family: 'Mina', sans-serif;
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
     margin: 50px;
 }
 
