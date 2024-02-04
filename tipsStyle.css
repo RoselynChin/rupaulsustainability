@@ -13,8 +13,11 @@ li {
     border-bottom: 2px solid #ff3b8d;
 }
 
+body {
+    background-color: rgb(130,255,202); 
+}
+
 * {
-    background-color: rgb(130,255,202);
     color: black;
     margin: 10px;
     font-family: 'Spinnaker', sans-serif;
@@ -35,6 +38,10 @@ img {
     margin-right: 10px;
 }
 
+#rupaul {
+    height: 50%;
+}
+
 .button-container {
     text-align: right;
     padding-right: 100px;
@@ -51,3 +58,133 @@ img {
     margin-left: auto; 
    
 }
+
+
+@font-face {
+    font-family: mervale;
+    src: url(assets/mervale-script.regular.otf);
+}
+
+@font-face {
+    font-family: public-sans;
+    src: url(assets/public-sans.regular.otf);
+}
+
+h1 {
+    font-family: mervale;
+    text-align: center;
+    margin: 35px;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: 'Mina', sans-serif;
+    text-align: center;
+    font-size: 200%;
+    margin: 50px;
+}
+
+@font-face{
+    font-family: spinnaker;
+    src: url(assets/spinnaker.regular.ttf);
+}
+
+.card-deck {
+    margin: 50px;
+    font-family: spinnaker;
+}
+
+.logo {
+  margin-top: 15px;
+  width: 75px;
+}
+
+/* speech bubble */
+.bubble {
+    --r: 25px; /* the radius */
+    --t: 30px; /* the size of the tail */
+    
+    max-width: 90%;
+    font-size: 115%;
+    padding: calc(2*var(--r)/3);
+    -webkit-mask: 
+      radial-gradient(var(--t) at var(--_d) 0,#0000 98%,#000 102%) 
+        var(--_d) 100%/calc(100% - var(--r)) var(--t) no-repeat,
+      conic-gradient(at var(--r) var(--r),#000 75%,#0000 0) 
+        calc(var(--r)/-2) calc(var(--r)/-2) padding-box, 
+      radial-gradient(50% 50%,#000 98%,#0000 101%) 
+        0 0/var(--r) var(--r) space padding-box;
+        background-color: #ffffff;
+    font-family: spinnaker;
+}
+  
+  .left {
+    --_d: 0%;
+    border-left: var(--t) solid #0000;
+    margin-right: var(--t);
+    place-self: start;
+  }
+
+.home-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin: 20%;
+    font-family: 'Mina', sans-serif;
+
+}
+
+h2 {
+    font-size: 250%;
+}
+
+#cursor {
+    filter: hue-rotate(0deg);
+    position: absolute;
+  
+    animation-name: rainbow;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+    pointer-events: none;
+    /*cursor: none;*/
+  
+  }
+  
+  @keyframes rainbow { 
+    0% { 
+      filter: hue-rotate(0deg) brightness(100%);
+    } 
+    50% {
+      filter: hue-rotate(180deg) brightness(150%);
+    }
+    100%{ 
+      filter: hue-rotate(360deg) brightness(100%);
+    }
+  }
+  
+  /*
+  body {
+  height: 100vw;
+  margin: 0;
+  }
+  
+  * {
+  cursor: none;
+  }
+  */
+  
+  a {
+    color: black;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  a:hover {
+    color: transparent;
+    transition: 500ms ease;
+  }
