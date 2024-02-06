@@ -159,7 +159,7 @@ h2 {
     font-size: 250%;
 }
 
-#cursor {
+/* #cursor {
     filter: hue-rotate(0deg);
     position: absolute;
   
@@ -184,7 +184,7 @@ h2 {
       filter: hue-rotate(360deg) brightness(100%);
     }
   }
-  
+   */
   /*
   body {
   height: 100vw;
